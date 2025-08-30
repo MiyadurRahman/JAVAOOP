@@ -1,0 +1,32 @@
+package Pattern;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Pattern3{
+    public static class pattern {
+
+        int row = 4;
+        int col = 5;
+
+    }
+    public static void main(String[] args) {
+        pattern p = new pattern();
+        for(int i=0;i<p.row;i++){
+            for(int j=0;j<=i;j++){
+
+
+
+                    System.out.print("*");
+
+
+
+
+            }
+            System.out.println();
+
+        }
+
+
+    }
+
+}
